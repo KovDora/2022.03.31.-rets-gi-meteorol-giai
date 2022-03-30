@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2022.03.31. Éretségi meteorológiai", "2022.03.31. Éretségi meteorológiai.csproj", "{42293A4A-C83B-4DD5-B1B6-75A1760F6970}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42293A4A-C83B-4DD5-B1B6-75A1760F6970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42293A4A-C83B-4DD5-B1B6-75A1760F6970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42293A4A-C83B-4DD5-B1B6-75A1760F6970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42293A4A-C83B-4DD5-B1B6-75A1760F6970}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4C305F0-3B44-49E4-ADC5-CD3C0001C15D}
+	EndGlobalSection
+EndGlobal
