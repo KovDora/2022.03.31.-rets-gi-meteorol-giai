@@ -1,0 +1,9 @@
+﻿'_2022._03._31.Éretségi_meteorológiai.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'_2022._03._31.Éretségi_meteorológiai.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\Users\Tóth Dóra\source\repos\2022.03.31. Éretségi meteorológiai\bin\Debug\_2022._03._31.Éretségi_meteorológiai.exe'. Symbols loaded.
+'_2022._03._31.Éretségi_meteorológiai.exe' (CLR v4.0.30319: _2022._03._31.Éretségi_meteorológiai.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_hu_b77a5c561934e089\mscorlib.resources.dll'. Module was built without symbols.
+Exception thrown: 'System.IO.FileNotFoundException' in mscorlib.dll
+An unhandled exception of type 'System.IO.FileNotFoundException' occurred in mscorlib.dll
+Nem található a következő fájl: „C:\Users\Tóth Dóra\source\repos\2022.03.31. Éretségi meteorológiai\bin\Debug\tavirathu13”.
+
+'_2022._03._31.Éretségi_meteorológiai.exe' (CLR v4.0.30319: _2022._03._31.Éretségi_meteorológiai.exe): Loaded 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\PrivateAssemblies\Runtime\Microsoft.VisualStudio.Debugger.Runtime.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+The program '[15548] _2022._03._31.Éretségi_meteorológiai.exe' has exited with code -1 (0xffffffff).
