@@ -158,8 +158,45 @@ namespace _2022._03._31.Éretségi_meteorológiai
                     }
                 }
             }
+            {
+                Console.WriteLine("6. feladt");
+                
+                HashSet<string> Városok = new HashSet<string>();
+                foreach (Távirat t in taviratlista)
+                {
+                    Városok.Add(t.telepules);
+                }
+                foreach (string varos in Városok)
+                {
+                    Dictionary<TimeSpan, int> szelerosseg_szotar = szelerossegei(varos, taviratlista);
+                    using (StreamWriter iro = new StreamWriter($"{varos}.txt"))
+                    {
+                        foreach (TimeSpan idopont in szelerosseg_szotar.Keys)
+                        {
+                            iro.Write($"{idopont.Hours.ToString("00")}:{idopont.Minutes.ToString("00")}");
+                            for (int  i= 0;  i< szelerosseg_szotar[idopont]; i++)
+                            {
+                                iro.Write("#");
+                            }
+                            iro.WriteLine( );
+                        }
+                    }
+                }
+            }
 
         }
 
+        static Dictionary<TimeSpan, int> szelerossegei(string varos, List<Távirat> taviratlista)
+        {
+            Dictionary<TimeSpan, int> szotar = new Dictionary<TimeSpan, int>();
+            foreach (Távirat t in taviratlista)
+            {
+                if (t.telepules==varos)
+                {
+                    szotar[t.ido] = t.szelerosseg;
+                }
+            }
+            return szotar;
+        }
     }
 }
